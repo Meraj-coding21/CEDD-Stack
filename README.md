@@ -38,7 +38,6 @@ Official implementation of **"CEDD-Stack: A CNN Ensemble with CatBoost Stacking 
 6. [Evaluation](#-evaluation)
 7. [Explainability](#-explainability)
 8. [Results](#-results)
-9. [Citation](#-citation)
 
 ---
 
@@ -54,7 +53,7 @@ Official implementation of **"CEDD-Stack: A CNN Ensemble with CatBoost Stacking 
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/CEDD-Stack.git
+git clone https://github.com/Meraj-coding21/CEDD-Stack.git
 cd CEDD-Stack
 ```
 
@@ -333,9 +332,7 @@ CEDD-Stack/
 │   ├── inference.py                   # Predict on new images
 │   └── cross_validation.py            # K-fold CV
 ├── notebooks/                          # Jupyter notebooks
-├── models/
-│   ├── weights/                        # Pre-trained weights (.h5)
-│   └── ensemble/                       # Ensemble models (.cbm)
+├── models/                             # Model weights and ensemble files
 ├── results/                            # Experimental results
 └── requirements.txt                    # Dependencies
 ```
@@ -389,22 +386,6 @@ pip install --upgrade -r requirements.txt
 
 ---
 
-## 📖 Citation
-
-If you use this code or pre-trained models, please cite our paper:
-
-```bibtex
-@article{meraj2025cedd,
-  title={CEDD-Stack: A CNN Ensemble with CatBoost Stacking for Accurate and Explainable Diabetic Retinopathy Detection},
-  author={Meraj, Mehedi Hasan and Tajbid, Mashfiquzzaman and Mojumdar, Mayen Uddin and Banshal, Sumit Kumar},
-  journal={[Journal Name]},
-  year={2025},
-  doi={[DOI]}
-}
-```
-
----
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -421,20 +402,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- **Authors**: Mehedi Hasan Meraj, Mashfiquzzaman Tajbid, Mayen Uddin Mojumdar, Sumit Kumar Banshal
-- **Repository**: https://github.com/YOUR-USERNAME/CEDD-Stack
-- **Issues**: https://github.com/YOUR-USERNAME/CEDD-Stack/issues
+- **Name**: Mehedi Hasan Meraj
+- **Email**: meraj2310510318@diu.edu.bd
+- **Repository**: https://github.com/Meraj-coding21/CEDD-Stack
+- **Issues**: https://github.com/Meraj-coding21/CEDD-Stack/issues
 
 For questions about the paper or code, please open an issue on GitHub.
-
----
-
-## 📊 Additional Resources
-
-- **Paper PDF**: [Link to published paper]
-- **Supplementary Materials**: [Link if available]
-- **Demo Video**: [Link if available]
-- **Presentation**: [Link if available]
 
 ---
 
