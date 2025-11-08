@@ -291,9 +291,8 @@ All experimental results from the paper are provided:
 ```
 results/
 ├── gradcam_visualizations/    # 25 Grad-CAM images (Figures 12-15)
-├── confusion_matrices/         # Confusion matrices for all models
-├── training_curves/            # Sample training/validation curves
-└── metrics/                    # Performance CSV files
+├── confusion_matrices/        # Confusion matrices for all models          
+└── training_curves/           # Sample training/validation curves
 ```
 
 ### Reproducing Results
