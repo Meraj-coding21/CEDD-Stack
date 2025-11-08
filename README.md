@@ -255,10 +255,11 @@ python scripts/cross_validation.py --all_models --k 2,4,6
 jupyter notebook
 
 # Open notebooks:
-# - notebooks/02_gradcam_efficientnetv2m.ipynb
-# - notebooks/03_gradcam_densenet169.ipynb
-# - notebooks/04_gradcam_efficientnetb5.ipynb
-# - notebooks/05_gradcam_inceptionv3.ipynb
+# - notebooks/EDA.ipynb
+# - notebooks/EffbetB5-training-grad-cam-loU.ipynb
+# - notebooks/grad-cam-densenet169.ipynb
+# - notebooks/grad-cam-effnetv2m.ipynb
+# - notebooks/grad-cam-inception-v3.ipynb
 ```
 
 ### LIME Explanations
