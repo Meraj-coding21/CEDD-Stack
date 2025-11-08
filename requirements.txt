@@ -1,30 +1,36 @@
-# CEDD-Stack Requirements
-# Python 3.10+
+# CEDD-Stack Requirements (Python 3.10+)
 
 # Deep Learning
-tensorflow>=2.13.0
-keras>=2.13.0
+tensorflow>=2.13.0,<2.16.0
+keras>=2.13.0,<2.16.0
 
 # Data Science
-numpy>=1.24.0
-pandas>=2.0.0
-scikit-learn>=1.3.0
-scipy>=1.11.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+scikit-learn>=1.3.0,<2.0.0
+scipy>=1.11.0,<2.0.0
 
 # Image Processing
-opencv-python>=4.8.0
-Pillow>=10.0.0
-scikit-image>=0.21.0
+opencv-python>=4.8.0,<5.0.0
+Pillow>=10.0.0,<11.0.0
+scikit-image>=0.21.0,<1.0.0
 
-# Ensemble & Boosting
-catboost>=1.2.0
+# Ensemble and Boosting
+catboost>=1.2.0,<2.0.0
 
 # Explainability
 lime>=0.2.0.1
 
 # Visualization
-matplotlib>=3.7.0
-seaborn>=0.12.0
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Jupyter (for running notebooks)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
 
 # Utilities
 tqdm>=4.65.0
+pyyaml>=6.0
+h5py>=3.9.0
